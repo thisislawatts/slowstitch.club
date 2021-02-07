@@ -6,7 +6,7 @@
     {
       "name": "shop",
       "link": "https://www.etsy.com/uk/shop/slowstitchclub?ref=ss_profile",
-      "photo": "/src/uploads/bannerbackground.png"
+      "photo": "/src/static/uploads/bannerbackground.png"
     },
     {
       "name": "workshops",

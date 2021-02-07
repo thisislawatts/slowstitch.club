@@ -1,4 +1,5 @@
 {% include 'header' %}
+
 <main>
   <div class="homepage__content">
     <h2>
@@ -15,11 +16,12 @@
       <a href="{{ item.link }}">
         <span>{{ item.name }}</span>
         {% if item.photo %}
-        <img src="{{ item.photo | replace: 'src','static' }}" />
+        <img src="{{ item.photo | replace: '/src','' }}" />
         {% endif %}
       </a>
     </li>
     {% endfor %}
   </ul>
 </main>
+
 {% include 'footer' %}
