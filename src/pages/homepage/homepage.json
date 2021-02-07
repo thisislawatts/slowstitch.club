@@ -1,0 +1,28 @@
+{
+  "intro": "Whether you're a seasoned stitcher or have never picked a needle and thread up before, I want to share the skills you can use to extend the lives of your clothes and keep them from landfill.",
+  "title": "slow stitch club is all about making visible mending accessible for everyone",
+  "permalink": "index.html",
+  "links": [
+    {
+      "name": "shop",
+      "link": "https://www.etsy.com/uk/shop/slowstitchclub?ref=ss_profile",
+      "photo": "/src/uploads/bannerbackground.png"
+    },
+    {
+      "name": "workshops",
+      "link": "https://www.eventbrite.co.uk/o/slow-stitch-club-29298954009"
+    },
+    {
+      "name": "community",
+      "link": "https://www.facebook.com/slow-stitch-club-103930844416621/?view_public_for=103930844416621"
+    },
+    {
+      "name": "patroen",
+      "link": "https://www.patreon.com/slowstitchclub?fan_landing=true"
+    },
+    {
+      "name": "youtube",
+      "link": "https://www.youtube.com/channel/UCGp0ysyIK-SUThHJT8ESTlw?view_as=subscriber"
+    }
+  ]
+}

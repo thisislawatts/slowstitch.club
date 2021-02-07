@@ -1,0 +1,23 @@
+{
+  "name": "slowstitch.club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/thisislawatts/slow-stitch-club.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/thisislawatts/slow-stitch-club/issues"
+  },
+  "homepage": "https://gitlab.com/thisislawatts/slow-stitch-club#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}

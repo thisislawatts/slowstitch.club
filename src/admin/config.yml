@@ -1,0 +1,56 @@
+backend:
+  name: proxy
+  proxy_url: http://localhost:8081/api/v1
+  branch: master # optional, defaults to master
+
+local_backend: true
+media_folder: "src/uploads"
+
+show_preview_links: false
+preview: false
+
+collections:
+  - label: "Pages"
+    name: "pages"
+    delete: false
+    preview: false
+    extension: json
+    files:
+      - name: "homepage"
+        label: "Homepage"
+        preview: false
+        file: "src/pages/homepage/homepage.json"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
+          - label: Links
+            name: links
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Photo, name: photo, widget: image, required: false }
+  - label: "Blocks"
+    name: "blocks"
+    delete: false
+    preview: false
+    extension: json
+    files:
+      - name: "footer"
+        label: "Footer"
+        preview: false
+        file: "src/_data/footer.json"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - label: Links
+            name: links
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
+      - name: "newsletter"
+        label: "Newsletter Form"
+        preview: false
+        file: "src/_data/newsletter.json"
+        fields:
+          - { label: Intro, name: intro, widget: string }

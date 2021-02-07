@@ -1,0 +1,21 @@
+{
+  "links": [
+    {
+      "name": "instagram",
+      "link": "http://example.com"
+    },
+    {
+      "name": "facebook",
+      "link": "http://example.com"
+    },
+    {
+      "name": "twitter",
+      "link": "http://example.com"
+    },
+    {
+      "name": "patroen",
+      "link": "http://example.com"
+    }
+  ],
+  "title": "Perfectionism is pointless if it stops you from starting. All you need is a needle, thread and a simple running stitch."
+}
