@@ -6,6 +6,8 @@ sections:
     text: >-
       Hi! I’m Skye, the face behind slow stitch club.\
 
+      \
+
       After studying fashion design at university, I graduated with a very different view of the industry, and wanted to push against it. From that point on I continued to learn and educate myself; about the vast quantities of clothing that is sent to landfill, the devastating environmental impacts of textiles production as well as the horrifying truths about garment workers and their lack of rights.
 
 
