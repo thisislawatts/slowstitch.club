@@ -1,3 +1,9 @@
-{{ section.text | md }}
-
-<img src="{{ section.image | replace: 'src','static' }}" alt=""/>
+<section class="s-image-and-text">
+    <div class="s-image-and-text__text">
+        {{ section.text | md }}
+    </div>
+    
+    <figure>
+        <img src="{{ section.image | replace: 'src','static' }}" alt=""/>
+    </figure>
+</section>
