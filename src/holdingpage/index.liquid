@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>slow stitch club</title>
+    <style>
+      * {
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        background: #ecedef;
+        font-family: Avenir, sans-serif;
+        font-weight: 100;
+        font-size: 1rem;
+      }
+      body {
+        padding: 60px 40px;
+      }
+      a {
+        color: inherit;
+      }
+      h1 {
+        font-size: 1.75em;
+        margin-bottom: 0.4em;
+      }
+      img {
+        mix-blend-mode: multiply;
+        width: 236px;
+        height: auto;
+        margin: 0 0 3.45rem -22px;
+      }
+      p {
+        font-size: 1.125rem;
+        line-height: 1.5;
+        max-width: 35ch;
+        margin-bottom: 1.85rem;
+      }
+      input {
+        border: none;
+      }
+      form {
+        position: relative;
+        margin-bottom: 4.425em;
+        max-width: 18em;
+      }
+      .form-input {
+        font-size: 1rem;
+        padding: 0.79em 1.15em;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+        transition: 0.25s ease-in-out all;
+        width: 100%;
+      }
+      .form-input:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      }
+      .form-input:focus + svg path {
+        stroke-dasharray: 10000px 0;
+        stroke-width: 1.25px;
+      }
+      footer {
+        font-size: 0.875em;
+        line-height: 1.5;
+        color: rgba(0, 0, 0, 0.7);
+      }
+      button {
+        padding: 1em;
+        width: 100%;
+      }
+      .newsletter-signup button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        border: none;
+        background: transparent;
+        width: 4.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .newsletter-signup .line {
+        position: absolute;
+        bottom: -26px;
+        left: -6px;
+        pointer-events: none;
+      }
+      .display-flex {
+        display: flex;
+      }
+      .align-center {
+        align-items: center;
+      }
+      .mb--0 {
+        margin-bottom: 0;
+      }
+      .mb--sm {
+        margin-bottom: 1rem;
+      }
+      .svelte-15xaass.svelte-15xaass {
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      a.svelte-15xaass.svelte-15xaass {
+        color: inherit;
+      }
+      h1.svelte-15xaass.svelte-15xaass {
+        font-size: 1.75em;
+        margin-bottom: 0.4em;
+      }
+      img.svelte-15xaass.svelte-15xaass {
+        mix-blend-mode: multiply;
+        width: 236px;
+        height: auto;
+        margin: 0 0 3.45rem -22px;
+      }
+      p.svelte-15xaass.svelte-15xaass {
+        font-size: 1.125rem;
+        line-height: 1.5;
+        max-width: 35ch;
+        margin-bottom: 1.85rem;
+      }
+      input.svelte-15xaass.svelte-15xaass {
+        border: none;
+      }
+      form.svelte-15xaass.svelte-15xaass {
+        position: relative;
+        margin-bottom: 4.425em;
+        max-width: 18em;
+      }
+      .form-input.svelte-15xaass.svelte-15xaass {
+        font-size: 1rem;
+        padding: 0.79em 1.15em;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+        transition: 0.25s ease-in-out all;
+        width: 100%;
+      }
+      .form-input.svelte-15xaass.svelte-15xaass:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      }
+      .form-input:focus + svg.svelte-15xaass path.svelte-15xaass {
+        stroke-dasharray: 10000px 0;
+        stroke-width: 1.25px;
+      }
+      footer.svelte-15xaass.svelte-15xaass {
+        font-size: 0.875em;
+        line-height: 1.5;
+        color: rgba(0, 0, 0, 0.7);
+      }
+      button.svelte-15xaass.svelte-15xaass {
+        padding: 1em;
+        width: 100%;
+      }
+      .newsletter-signup.svelte-15xaass button.svelte-15xaass {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        border: none;
+        background: transparent;
+        width: 4.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .newsletter-signup.svelte-15xaass .line.svelte-15xaass {
+        position: absolute;
+        bottom: -26px;
+        left: -6px;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body class="home">
+    <div class="container">
+      <img src="/static/img/logomark.png" alt="slow stitch club" class="svelte-15xaass" />
+      <h1 class="svelte-15xaass">slow stitch club</h1>
+
+      <p class="svelte-15xaass">
+        learn about all things visible mending with the monthly newsletter.<br
+          class="svelte-15xaass"
+        />
+        a regular update featuring the latest mends and inspirational links.
+      </p>
+
+      <form class="newsletter-signup svelte-15xaass" method="post">
+        <input
+          type="hidden"
+          name="form-name"
+          value="form 1"
+          class="svelte-15xaass"
+        />
+        <input
+          class="form-input svelte-15xaass"
+          name="email"
+          type="email"
+          placeholder="Enter your email address"
+          required=""
+        />
+        <svg
+          class="line svelte-15xaass"
+          width="300"
+          height="47"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 21.924c12.106.74 22.98.285 33.986-.002 42.205-1.1 84.905-2.214 129.852-1.213 43.743.975 88.815 2.612 132.514 4.813"
+            stroke="#000"
+            stroke-linecap="round"
+            stroke-dasharray="10 14"
+            class="svelte-15xaass"
+          ></path>
+        </svg>
+        <button type="submit" class="svelte-15xaass">
+          <svg
+            width="25"
+            height="21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="svelte-15xaass"
+          >
+            <path
+              d="M1.074 8.36c7.617.425 15.596-.13 23.02.285M14.5 1.098c2.306 2.118 4.41 4.33 7.034 6.027 2.103 1.36 2.003 1.307.197 3.1-2.735 2.713-5.351 5.339-6.758 8.927"
+              stroke="#000"
+              stroke-width="1.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="svelte-15xaass"
+            ></path>
+          </svg>
+        </button>
+      </form>
+
+      <footer class="svelte-15xaass">
+        <a
+          href="https://www.etsy.com/uk/shop/slowstitchclub"
+          class="svelte-15xaass"
+          >Shop my products on Etsy</a
+        >,
+        <a
+          href="https://www.patreon.com/join/slowstitchclub"
+          class="svelte-15xaass"
+          >support me on Patreon</a
+        >
+        or follow on
+        <a
+          href="https://www.instagram.com/slowstitchclub/"
+          class="svelte-15xaass"
+          >Instagram</a
+        >. <br class="svelte-15xaass" />Run from mid Sussex by Skye
+      </footer>
+    </div>
+
+    <script
+      defer
+      async
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
+  </body>
+</html>

@@ -4,14 +4,14 @@ backend:
   branch: master # optional, defaults to master
 
 local_backend: true
-media_folder: "src/uploads"
+media_folder: "src/static/uploads"
 
 show_preview_links: false
 preview: false
 
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: "Homepage"
+    name: "front"
     delete: false
     preview: false
     extension: json
@@ -19,7 +19,7 @@ collections:
       - name: "homepage"
         label: "Homepage"
         preview: false
-        file: "src/pages/homepage/homepage.json"
+        file: "src/homepage/homepage.json"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
@@ -30,6 +30,75 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Link, name: link, widget: string }
               - { label: Photo, name: photo, widget: image, required: false }
+  - label: "Pages"
+    name: "pages"
+    create: true
+    delete: true
+    preview: false
+    folder: "src/pages"
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Url, name: permalink, widget: string }
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        types:
+          - label: "Image & Text"
+            name: "sectionImageAndText"
+            widget: object
+            summary: "Image & Text"
+            fields:
+              - label: Image
+                name: image
+                widget: image
+                required: false
+              - { label: Text, name: text, widget: markdown }
+              - {
+                  label: Link text,
+                  name: cta_text,
+                  widget: string,
+                  required: false,
+                }
+              - { label: Link, name: cta_link, widget: string, required: false }
+          # - label: "Heading"
+          #   name: "sectionHeading"
+          #   widget: object
+          #   summary: "Heading: {{fields.title}}"
+          #   fields:
+          #     - { label: title, name: title, widget: string }
+          # - label: "Banner Image"
+          #   name: "sectionBanner"
+          #   widget: object
+          #   summary: "Banner Image"
+          #   fields:
+          #     - { label: Image, name: image, widget: image }
+          - label: "Text"
+            name: "sectionText"
+            widget: object
+            summary: "Text"
+            fields:
+              - { label: Text, name: text, widget: markdown }
+              - {
+                  label: Link text,
+                  name: cta_text,
+                  widget: string,
+                  required: false,
+                }
+              - { label: Link, name: cta_link, widget: string, required: false }
+      - label: SEO Title
+        name: seoTitle
+        widget: string
+        required: false
+      - label: SEO Description
+        name: seoDescription
+        widget: string
+        required: false
+      - label: SEO Image
+        name: seoImage
+        widget: image
+        required: false
+
   - label: "Blocks"
     name: "blocks"
     delete: false
@@ -54,3 +123,14 @@ collections:
         file: "src/_data/newsletter.json"
         fields:
           - { label: Intro, name: intro, widget: string }
+      - name: "navigation"
+        label: "Navigation"
+        preview: false
+        file: "src/_data/navigation.json"
+        fields:
+          - label: Links
+            name: links
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }

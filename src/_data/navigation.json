@@ -1,0 +1,12 @@
+{
+  "links": [
+    {
+      "name": "About",
+      "link": "/about"
+    },
+    {
+      "name": "Shop",
+      "link": "/shop"
+    }
+  ]
+}

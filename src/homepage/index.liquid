@@ -1,0 +1,25 @@
+{% include 'header' %}
+<main>
+  <div class="homepage__content">
+    <h2>
+      {{ title }}
+    </h2>
+
+    <p>
+      {{ intro }}
+    </p>
+  </div>
+  <ul class="link-items">
+    {% for item in links %}
+    <li>
+      <a href="{{ item.link }}">
+        <span>{{ item.name }}</span>
+        {% if item.photo %}
+        <img src="{{ item.photo | replace: 'src','static' }}" />
+        {% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
+{% include 'footer' %}

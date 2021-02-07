@@ -1,0 +1,58 @@
+<footer>
+    <div class="footer__content">
+      <p>
+        {{ footer.title }}
+      </p>
+
+      <div class="newsletter__signup">
+        <p>
+          {{ newsletter.intro }}
+        </p>
+        <form class="newsletter__form" method="post">
+          <input
+            type="hidden"
+            name="form-name"
+            value="form 1"
+            class="svelte-15xaass"
+          />
+          <input
+            class="form-input svelte-15xaass"
+            name="email"
+            type="email"
+            placeholder="Enter your email address"
+            required=""
+          />
+          <button type="submit" class="svelte-15xaass">
+            <svg
+              width="25"
+              height="21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="svelte-15xaass"
+            >
+              <path
+                d="M1.074 8.36c7.617.425 15.596-.13 23.02.285M14.5 1.098c2.306 2.118 4.41 4.33 7.034 6.027 2.103 1.36 2.003 1.307.197 3.1-2.735 2.713-5.351 5.339-6.758 8.927"
+                stroke="#000"
+                stroke-width="1.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="svelte-15xaass"
+              ></path>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+      <ul class="social-links">
+        {% for item in footer.links %}
+        <li>
+          <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div>&copy; slow stitch club {{ "now" | date: "%Y" }}</div>
+  </footer>
+</body>
+</html>
