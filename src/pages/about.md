@@ -17,7 +17,7 @@ sections:
       Mending is a hugely creative and intentionally slow and therapeutic skill, and the community surrounding it is super inspiring. I hope you’ll join us to learn a new skill and be a part of the change to fight against fast fashion whilst taking care of the clothes you love.
 
 
-      I love talking all things visible mending so if you want to chat or have any questions please email me at skye@slowstitch.club. I’m also on the lookout for stockists so if you’d like any of my products in your store, or want to host mending workshops get in touch.
+      I love talking all things visible mending so if you want to chat or have any questions please email me at [skye@slowstitch.club](mailto:skye@slowstitch.club). I’m also on the lookout for stockists so if you’d like any of my products in your store, or want to host mending workshops get in touch.
     image: /src/uploads/ssc-bio-photo.jpg
   - type: sectionText
     text: >-
