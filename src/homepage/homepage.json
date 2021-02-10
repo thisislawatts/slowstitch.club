@@ -6,18 +6,19 @@
     {
       "name": "shop",
       "link": "https://www.etsy.com/uk/shop/slowstitchclub?ref=ss_profile",
-      "photo": "/src/static/uploads/bannerbackground.png"
+      "photo": "/src/static/uploads/dscf5530.jpg"
     },
     {
       "name": "workshops",
-      "link": "https://www.eventbrite.co.uk/o/slow-stitch-club-29298954009"
+      "link": "https://www.eventbrite.co.uk/o/slow-stitch-club-29298954009",
+      "photo": "/src/static/uploads/img_6571.jpg"
     },
     {
       "name": "community",
       "link": "https://www.facebook.com/slow-stitch-club-103930844416621/?view_public_for=103930844416621"
     },
     {
-      "name": "patroen",
+      "name": "patreon",
       "link": "https://www.patreon.com/slowstitchclub?fan_landing=true"
     },
     {
