@@ -11,19 +11,22 @@
     {
       "name": "workshops",
       "link": "https://www.eventbrite.co.uk/o/slow-stitch-club-29298954009",
-      "photo": "/src/static/uploads/img_6571.jpg"
+      "photo": "/src/static/uploads/workshops.jpg"
     },
     {
       "name": "community",
-      "link": "https://www.facebook.com/slow-stitch-club-103930844416621/?view_public_for=103930844416621"
+      "link": "https://www.facebook.com/slow-stitch-club-103930844416621/?view_public_for=103930844416621",
+      "photo": "/src/static/uploads/darn.jpg"
     },
     {
       "name": "patreon",
-      "link": "https://www.patreon.com/slowstitchclub?fan_landing=true"
+      "link": "https://www.patreon.com/slowstitchclub?fan_landing=true",
+      "photo": "/src/static/uploads/denim-jacket.jpg"
     },
     {
       "name": "youtube",
-      "link": "https://www.youtube.com/channel/UCGp0ysyIK-SUThHJT8ESTlw?view_as=subscriber"
+      "link": "https://www.youtube.com/channel/UCGp0ysyIK-SUThHJT8ESTlw?view_as=subscriber",
+      "photo": ""
     },
     {
       "name": "about",
