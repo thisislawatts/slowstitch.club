@@ -18,7 +18,7 @@ sections:
 
 
       I love talking all things visible mending so if you want to chat or have any questions please email me at [skye@slowstitch.club](mailto:skye@slowstitch.club). I’m also on the lookout for stockists so if you’d like any of my products in your store, or want to host mending workshops get in touch.
-    image: /src/uploads/ssc-bio-photo.jpg
+    image: /src/static/uploads/homepageskye.jpg
   - type: sectionText
     text: >-
       ## Mending not for you?
