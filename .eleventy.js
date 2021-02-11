@@ -2,6 +2,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/static/img");
   eleventyConfig.addPassthroughCopy("src/static/uploads");
+  eleventyConfig.addPassthroughCopy("src/static/css");
 
   eleventyConfig.addCollection("pages", function (collection) {
     console.log({ items: collection.items });
