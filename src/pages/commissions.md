@@ -15,4 +15,5 @@ sections:
 
       We can then talk through options for mending and I can work out a quote and time frame for you.
     image: /src/static/uploads/commissions.jpg
+seoTitle: Commissions
 ---
