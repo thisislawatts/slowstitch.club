@@ -1,6 +1,6 @@
 ---
 title: "Commissions "
-permalink: www.slowstitch.club/commissions
+permalink: commissions/index.html
 sections:
   - type: sectionImageAndText
     text: >-
