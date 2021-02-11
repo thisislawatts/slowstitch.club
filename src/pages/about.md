@@ -19,17 +19,5 @@ sections:
 
       I love talking all things visible mending so if you want to chat or have any questions please email me at [skye@slowstitch.club](mailto:skye@slowstitch.club). I’m also on the lookout for stockists so if you’d like any of my products in your store, or want to host mending workshops then get in touch.
     image: /src/static/uploads/ssc-bio-photo.jpg
-  - type: sectionText
-    text: >-
-      ## Mending not for you?
-
-
-      If you love the look of visible mending but aren’t able to try it for yourself, I also offer a visible mending service.
-
-
-      Email me with photos and a description of your clothing and the damage that needs mending.
-
-
-      We can then talk through options for mending and I can work out a quote and time frame for you.
 seoTitle: About
 ---
