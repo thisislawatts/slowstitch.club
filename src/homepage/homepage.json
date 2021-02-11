@@ -21,12 +21,12 @@
     {
       "name": "patreon",
       "link": "https://www.patreon.com/slowstitchclub?fan_landing=true",
-      "photo": "/src/static/uploads/denim-jacket-copy.jpg"
+      "photo": "/src/static/uploads/tools.jpg"
     },
     {
       "name": "youtube",
       "link": "https://www.youtube.com/channel/UCGp0ysyIK-SUThHJT8ESTlw?view_as=subscriber",
-      "photo": "/src/static/uploads/youtube.jpg"
+      "photo": "/src/static/uploads/yt.jpg"
     },
     {
       "name": "about",
