@@ -1,12 +1,32 @@
 {
   "links": [
     {
-      "name": "About",
-      "link": "/about"
+      "name": "Home",
+      "link": "https://www.slowstitch.club/frontpage/"
     },
     {
       "name": "Shop",
       "link": "https://www.etsy.com/uk/shop/slowstitchclub?ref=ss_profile"
+    },
+    {
+      "name": "Workshops",
+      "link": "https://www.eventbrite.co.uk/o/slow-stitch-club-29298954009"
+    },
+    {
+      "name": "Community ",
+      "link": "https://www.facebook.com/groups/231696421789968"
+    },
+    {
+      "name": "Patreon",
+      "link": "https://www.patreon.com/slowstitchclub?fan_landing=true"
+    },
+    {
+      "name": "YouTube",
+      "link": "https://www.youtube.com/channel/UCGp0ysyIK-SUThHJT8ESTlw?view_as=subscriber"
+    },
+    {
+      "name": "About",
+      "link": "/about"
     },
     {
       "name": "Contact",
