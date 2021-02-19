@@ -3,238 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/screen.css">
     <title>slow stitch club</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
-
-      * {
-        font-family: "Nunito", sans-serif;
-        font-weight: normal;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-
-      body {
-        text-align: center;
-        font-size: 1rem;
-        font-size: calc(1rem + .25vw);
-      }
-
-      header {
-        padding: calc(3em + 5vw) 5vw 2.5vw;
-      }
-
-      header img {
-        width: 236px;
-        margin: 0 auto 3.45rem;
-        transform: translateY(-22px);
-      }
-
-      header nav {
-        padding-top: 2vw;
-      }
-
-      header nav ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        text-transform: lowercase;
-      }
-
-      header nav ul li {
-        display: flex;
-        position: relative;
-        padding-left: 0.5em;
-      }
-
-      header nav ul li:before {
-        content: "\00B7";
-        display: inline-block;
-        font-size: 4rem;
-        line-height: 0;
-        position: absolute;
-        top: 50%;
-        margin-top: -0.25rem;
-        left: -0.2rem;
-        display: flex;
-        justify-content: center;
-        background: red;
-        align-items: center;
-      }
-
-      header nav ul li:first-child {
-        padding-left: 0;
-      }
-      header nav ul li:first-child:before {
-        display: none;
-      }
-
-      header nav ul a {
-        display: block;
-        padding: 0.5em;
-      }
-
-      h2 {
-        margin-bottom: 1.5rem;
-      }
-
-      p {
-        margin-bottom: 1.5em;
-      }
-
-      a {
-        text-decoration: none;
-        color: currentColor;
-      }
-
-      .link-items {
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        background: hsl(167, 75%, 95%);
-      }
-
-      .link-items li {
-        width: calc(100vw / 2);
-        height: calc(100vw / 2);
-        overflow: hidden;
-        position: relative;
-        background: hsl(167, 60%, 90%);
-      }
-
-      @media screen and (min-width: 580px) {
-        .link-items a {
-          color: transparent;
-          transition: 160ms ease all;
-        }
-
-        .link-items a:before {
-          content: "";
-          background: rgba(255, 255, 255, 0);
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-        }
-
-        .link-items a:hover {
-          color: currentColor;
-        }
-
-        .link-items a:hover:before {
-          background: rgba(255, 255, 255, 0.5);
-        }
-
-        .link-items li {
-          width: calc(100% / 3);
-          height: calc(100vw / 3);
-        }
-      }
-
-      .link-items span {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-
-        font-size: calc(2em + 1vw);
-      }
-
-      .homepage__content {
-        max-width: 50ch;
-        width: 90%;
-        margin: 0 auto 5vw;
-      }
-
-      footer {
-        background: #bfe1d7;
-        padding: 10vw 10vw 5vw;
-      }
-
-      .footer__content {
-        margin: 0 auto;
-        max-width: 50ch;
-        width: 90%;
-      }
-
-      input {
-        font-size: 1rem;
-        padding: 0.79em 1.15em;
-        border: none;
-        box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
-        transition: 0.25s ease-in-out all;
-        width: 100%;
-      }
-      input:focus {
-        outline: none;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-      }
-
-      .social-links {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        padding: 2em 0;
-        margin-bottom: 2em;
-      }
-
-        .social-links li {
-          margin: 0 .5rem;
-        }
-
-      .s-image-and-text {
-        max-width: 90%;
-        margin: 3vw auto;
-      }
-
-      @media screen and (min-width: 32em) {
-        .s-image-and-text {
-          display: flex;
-        }
-
-        .s-image-and-text > * {
-          text-align: left;
-          width: 50%;
-        }
-
-        .s-image-and-text__text {
-          padding-right: 10vw;
-        }
-      }
-
-      .s-text {
-        padding: 5vw;
-      }
-
-      .s-text__inner {
-        max-width: 50ch;
-        margin: 0 auto;
-      }
+    <meta name="title" content="slow stitch club" />
+    <meta name="description" content="" />
 
 
-      .newsletter__form {
-        position: relative;
-      }
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.slowstitch.club/commissions/"
+    />
+    <meta property="og:title" content="slow stitch club" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
 
-      .newsletter__form button {
-        position: absolute;
-        top: .3em;
-        right: 1em;
-        height: 100%;
-        background: none;
-        border: none;
-      }
-    </style>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://www.slowstitch.club/commissions/"
+    />
+    <meta property="twitter:title" content="slow stitch club" />
+    <meta property="twitter:description" content="" />
+    <meta property="twitter:image" content="" />
   </head>
   <body>
     <header>
