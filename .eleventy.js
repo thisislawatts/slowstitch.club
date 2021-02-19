@@ -53,7 +53,6 @@ module.exports = (eleventyConfig) => {
   });
 
   // Extend liquid
-  eleventyConfig.addLiquidShortcode("image", imageShortcode);
 
   const md = markdownIt();
   eleventyConfig.addLiquidFilter("md", function (value) {
