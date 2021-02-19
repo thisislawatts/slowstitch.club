@@ -39,12 +39,17 @@ header nav ul {
   display: flex;
   justify-content: center;
   text-transform: lowercase;
+  flex-wrap: wrap;
 }
 
 header nav ul li {
   display: flex;
   position: relative;
   padding-left: 0.5em;
+}
+
+nav [aria-current="page"] {
+  font-weight: 800;
 }
 
 header nav ul li:before {
@@ -54,11 +59,10 @@ header nav ul li:before {
   line-height: 0;
   position: absolute;
   top: 50%;
-  margin-top: -0.25rem;
-  left: -0.2rem;
+  margin-top: -0.05em;
+  left: -0.15rem;
   display: flex;
   justify-content: center;
-  background: red;
   align-items: center;
 }
 

@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/static/css/screen.css">
+    <link rel="stylesheet" href="/static/css/screen.css" />
     <title>slow stitch club</title>
     <meta name="title" content="slow stitch club" />
     <meta name="description" content="" />
-
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -38,7 +37,18 @@
         <ul>
           {% for item in navigation.links %}
           <li>
-            <a href="{{ item.link }}">{{ item.name }}</a>
+            <a
+              href="{{ item.link }}"
+              {%if
+              page.url
+              contains
+              item.link
+              %}aria-current="page"
+              {%
+              endif
+              %}
+              >{{ item.name }}</a
+            >
           </li>
           {% endfor %}
         </ul>
