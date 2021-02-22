@@ -87,6 +87,10 @@ p {
   margin-bottom: 0.75em;
 }
 
+strong {
+  font-weight: 600;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
