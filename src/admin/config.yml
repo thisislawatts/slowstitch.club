@@ -117,6 +117,7 @@ collections:
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
+              - { label: Icon, name: icon, widget: string }
               - { label: Link, name: link, widget: string }
       - name: "newsletter"
         label: "Newsletter Form"

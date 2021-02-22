@@ -2,14 +2,17 @@
   "links": [
     {
       "name": "instagram",
+      "icon": "instagram",
       "link": "http://instagram.com/slowstitchclub"
     },
     {
       "name": "facebook",
+      "icon": "facebook",
       "link": "https://www.facebook.com/slow-stitch-club-103930844416621/?view_public_for=103930844416621"
     },
     {
       "name": "pinterest",
+      "icon": "pinterest",
       "link": "https://www.pinterest.co.uk/slowstitchclub/_created/"
     }
   ],

@@ -46,13 +46,16 @@
       <ul class="social-links">
         {% for item in footer.links %}
         <li>
-          <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+          <a href="{{ item.link }}" target="_blank">
+            <img src="/static/img/{{ item.icon }}.svg" alt="{{ item.name }}" 
+              class="social-icon"/>
+          </a>
         </li>
         {% endfor %}
       </ul>
     </div>
 
-    <div>&copy; slowstitchclub {{ "now" | date: "%Y" }}</div>
+    <small>&copy; slowstitchclub 2020 &mdash; {{ "now" | date: "%Y" }}</small>
   </footer>
 </body>
 </html>

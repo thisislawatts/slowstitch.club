@@ -164,6 +164,10 @@ footer {
   padding: 7.5vw 10vw 5vw;
 }
 
+footer small {
+  font-size: .875rem;
+}
+
 .footer__content {
   margin: 0 auto;
   max-width: 42ch;
@@ -188,11 +192,12 @@ input:focus {
   display: flex;
   justify-content: center;
   padding: 2em 0;
-  margin-bottom: 2em;
+  margin: 2em 0;
 }
 
 .social-links li {
-  margin: 0 0.5rem;
+  margin: 0 1rem;
+  margin: 0 calc(1rem + .5vw);
 }
 
 .s-image-and-text {
@@ -236,4 +241,9 @@ input:focus {
   height: 100%;
   background: none;
   border: none;
+}
+
+
+.social-icon {
+  width: 48px;
 }
