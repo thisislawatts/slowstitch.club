@@ -230,7 +230,7 @@ input:focus {
 
 .s-image-and-text {
   max-width: 90%;
-  margin: 5vw auto;
+  margin: 2.5vw auto;
 }
 
 @media screen and (min-width: 32em) {
