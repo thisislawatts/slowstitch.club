@@ -47,8 +47,11 @@
         {% for item in footer.links %}
         <li>
           <a href="{{ item.link }}" target="_blank">
-            <img src="/static/img/{{ item.icon }}.svg" alt="{{ item.name }}" 
-              class="social-icon"/>
+            <img
+              src="/static/img/{{ item.icon }}.svg"
+              alt="{{ item.name }}" 
+              class="social-icon"
+              width="24" height="24"/>
           </a>
         </li>
         {% endfor %}
