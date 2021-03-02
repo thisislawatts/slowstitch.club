@@ -19,19 +19,9 @@
       "photo": "/src/static/uploads/yt.jpg"
     },
     {
-      "name": "patreon",
-      "link": "https://www.patreon.com/slowstitchclub?fan_landing=true",
-      "photo": "/src/static/uploads/tools.jpg"
-    },
-    {
       "name": "youtube",
       "link": "https://www.youtube.com/channel/UCGp0ysyIK-SUThHJT8ESTlw?view_as=subscriber",
       "photo": "/src/static/uploads/darn.jpg"
-    },
-    {
-      "name": "about",
-      "link": "/about",
-      "photo": "/src/static/uploads/homepageskye.jpg"
     }
   ]
 }
