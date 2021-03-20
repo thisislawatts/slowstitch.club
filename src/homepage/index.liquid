@@ -15,9 +15,7 @@
     <li>
       <a href="{{ item.link }}">
         <span>{{ item.name }}</span>
-        {% if item.photo %}
-        <img src="{{ item.photo | replace: '/src','' }}" alt="" aria-hidden="true" />
-        {% endif %}
+        {% if item.photo %} {% image item.photo, '', "(min-width: 58em) 100vw, 50vw" %} {% endif %}
       </a>
     </li>
     {% endfor %}

@@ -4,9 +4,6 @@
   </div>
 
   <figure>
-    <img
-      src="{{ section.image | replace: '/src/','/' }}"
-      alt="{{ section.image_caption }}"
-    />
+    {% image section.image, section.image_caption, '100vw' %}
   </figure>
 </section>

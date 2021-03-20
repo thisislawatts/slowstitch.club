@@ -1,21 +1,18 @@
 const Image = require("@11ty/eleventy-img");
 
-async function imageShortcode(src, alt, sizes) {
-  let metadata = await Image(src, {
-    widths: [300, 600],
+async function imageShortcode(src, alt = "", sizes) {
+  let metadata = await Image(`.${src}`, {
+    widths: [300, 800],
     formats: ["webp", "jpeg"],
-    outputDir: "_site/static/img",
+    outputDir: "_site/img",
   });
 
-  let imageAttributes = {
+  return Image.generateHTML(metadata, {
     alt,
     sizes,
     loading: "lazy",
     decoding: "async",
-  };
-
-  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
-  return Image.generateHTML(metadata, imageAttributes);
+  });
 }
 
 module.exports = (eleventyConfig) => {
@@ -58,6 +55,8 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addLiquidFilter("md", function (value) {
     return md.render(value);
   });
+
+  eleventyConfig.addLiquidShortcode("image", imageShortcode);
 
   return {
     templateFormats: ["md", "html", "liquid"],
