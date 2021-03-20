@@ -1,9 +1,12 @@
 <section class="s-image-and-text">
-    <div class="s-image-and-text__text">
-        {{ section.text | md }}
-    </div>
-    
-    <figure>
-        <img src="{{ section.image | replace: '/src/','/' }}" alt=""/>
-    </figure>
+  <div class="s-image-and-text__text">
+    {{ section.text | md }}
+  </div>
+
+  <figure>
+    <img
+      src="{{ section.image | replace: '/src/','/' }}"
+      alt="{{ section.image_caption }}"
+    />
+  </figure>
 </section>

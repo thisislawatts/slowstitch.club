@@ -22,7 +22,7 @@
             placeholder="Enter your email address"
             required=""
           />
-          <button type="submit" class="svelte-15xaass">
+          <button type="submit" aria-label="Sign up for newsletter">
             <svg
               width="25"
               height="21"
@@ -46,7 +46,7 @@
       <ul class="social-links">
         {% for item in footer.links %}
         <li>
-          <a href="{{ item.link }}" target="_blank">
+          <a href="{{ item.link }}" target="_blank" rel="noopener">
             <img
               src="/static/img/{{ item.icon }}.svg"
               alt="{{ item.name }}" 

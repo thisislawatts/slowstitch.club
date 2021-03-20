@@ -261,15 +261,15 @@ input:focus {
 .newsletter__form {
   position: relative;
   margin-top: 7vw;
+  display: flex;
 }
 
 .newsletter__form button {
-  position: absolute;
-  top: 0.3em;
-  right: 1em;
-  height: 100%;
-  background: none;
+  min-height: 100%;
+  background: #fff;
   border: none;
+  width: 3.25rem;
+  line-height: 0;
 }
 
 .social-icon {
