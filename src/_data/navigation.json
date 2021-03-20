@@ -2,15 +2,15 @@
   "links": [
     {
       "name": "Home",
-      "link": "https://www.slowstitch.club/frontpage/"
+      "link": "/"
     },
     {
       "name": "About",
-      "link": "/about"
+      "link": "/about/"
     },
     {
       "name": "Commissions",
-      "link": "/commissions"
+      "link": "/commissions/"
     },
     {
       "name": "Contact",

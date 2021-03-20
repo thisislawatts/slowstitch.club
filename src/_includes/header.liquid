@@ -59,7 +59,7 @@
   <body>
     <header>
       <figure>
-        <a href="/frontpage" aria-hidden="true">
+        <a href="/" aria-hidden="true">
           <picture>
             <source srcset="/static/img/logomark.webp" type="image/webp" />
             <source srcset="/static/img/logomark.png" type="image/png" />
@@ -68,7 +68,7 @@
         </a>
       </figure>
 
-      <h2><a href="/frontpage" rel="home">slow stitch club</a></h2>
+      <h2><a href="/" rel="home">slow stitch club</a></h2>
 
       <nav>
         <ul>
@@ -78,7 +78,7 @@
               href="{{ item.link }}"
               {%if
               page.url
-              contains
+              ==
               item.link
               %}aria-current="page"
               {%
