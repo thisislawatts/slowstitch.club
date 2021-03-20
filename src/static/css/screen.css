@@ -114,6 +114,7 @@ a {
   flex-wrap: wrap;
   list-style: none;
   background: hsl(167, 75%, 95%);
+  margin-bottom: 2.5vw;
 }
 
 .link-items li {
