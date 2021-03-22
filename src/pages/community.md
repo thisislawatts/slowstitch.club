@@ -57,7 +57,7 @@ sections:
 
       \
 
-      **Eva [@evakittelsen](https://www.instagram.com/evakittelsen/)**\
+      **Eva - [@evakittelsen](https://www.instagram.com/evakittelsen/)**\
 
       Owner of My Visible Mend, Eva’s shop is a treasure trove of mending equipment, and I always love to read her posts and learn from her. \
 
