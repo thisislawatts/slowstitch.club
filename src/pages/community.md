@@ -12,6 +12,8 @@ sections:
       Below are handful of stitchers and makers that continue to inspire me and enrich the mending community. 
 
 
+
+
       **Renee - [@thatperfecthour](https://www.instagram.com/thatperfecthour/)** \
 
       Renee and I spent so much time chatting to each other from other sides of the world about mending that we now have chats on IG Live! Join us fortnightly for our “It’s not about the socks” series.
@@ -36,6 +38,8 @@ sections:
       I have spent (and still spend) a lot of time reading about Sashiko. It’s a hugely immersive and ancient practice, and I think it’s really important to learn from those whose culture it is a part of. Keiko and Atsushi put so much effort into educating others on top of sharing their incredible work.
 
 
+      \
+
       **Miranda - [@littlelemonloom](https://www.instagram.com/littlelemonloom/)**\
 
       Miranda is another innovative maker who has created another Speedweve alternative - and a way for you to make your own! 
@@ -48,9 +52,13 @@ sections:
       I absolutely love Selina’s work and find it so inspiring to scroll through her Instagram feed. Beautiful and intricate mends that are always sympathetic to the clothing as well as the techniques she uses. 
 
 
+      \
+
       **Katrine & Anette - [@mendingmayhem](https://www.instagram.com/mendingmayhem/)**\
 
       The mending mayhem community is a great place to go if you're ever looking for advice. Katrine and Anette are so friendly and share so many other menders as well as their own work. \
+
+      \
 
       \
 
