@@ -21,9 +21,9 @@ sections:
 
       \
 
-      **Eleysha - [@beyondrepair519](https://www.instagram.com/beyondrepair519/)**\
+      **Elysha - [@beyondrepair519](https://www.instagram.com/beyondrepair519/)**\
 
-      Eleysha is the creator of the awesome Swift Darner; a reinvention of the Speedweve that is sustainably made by her. Her talents know no bounds and it’s so exciting to see an antique mending tool being recreated in today's world. \
+      Elysha is the creator of the awesome Swift Darner; a reinvention of the Speedweve that is sustainably made by her. Her talents know no bounds and it’s so exciting to see an antique mending tool being recreated in today's world. \
 
       \
 
