@@ -15,8 +15,6 @@ sections:
 
       \
 
-      \
-
       **Renee - [@thatperfecthour](https://www.instagram.com/thatperfecthour/)** \
 
       Renee and I spent so much time chatting to each other from other sides of the world about mending that we now have chats on IG Live! Join us fortnightly for our “It’s not about the socks” series.\
