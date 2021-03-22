@@ -41,15 +41,25 @@ sections:
       Miranda is another innovative maker who has created another Speedweve alternative - and a way for you to make your own! 
 
 
+      \
+
       **Selina - [@selinaam05](https://www.instagram.com/selinaam05/)**\
 
       I absolutely love Selina’s work and find it so inspiring to scroll through her Instagram feed. Beautiful and intricate mends that are always sympathetic to the clothing as well as the techniques she uses. 
 
 
+      **Katrine & Anette - [@mendingmayhem](https://www.instagram.com/mendingmayhem/)**\
+
+      The mending mayhem community is a great place to go if you're ever looking for advice. Katrine and Anette are so friendly and share so many other menders as well as their own work. \
+
+      \
+
       **Eva [@evakittelsen](https://www.instagram.com/evakittelsen/)**\
 
       Owner of My Visible Mend, Eva’s shop is a treasure trove of mending equipment, and I always love to read her posts and learn from her. 
 
+
+      \
 
       **Bryony - [@tickover](https://www.instagram.com/tickover/)**\
 
