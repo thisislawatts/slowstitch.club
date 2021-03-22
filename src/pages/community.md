@@ -9,10 +9,13 @@ sections:
       since starting slow stitch club has been amazing. 
 
 
-      Below are a small handful of stitchers and makers that continue to inspire me and enrich the mending community. 
+      Below are a small handful of stitchers and makers that continue to inspire me and enrich the mending community. \
 
+      \
 
+      \
 
+      \
 
       **Renee - [@thatperfecthour](https://www.instagram.com/thatperfecthour/)** \
 
