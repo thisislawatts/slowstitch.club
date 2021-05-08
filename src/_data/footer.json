@@ -3,22 +3,26 @@
     {
       "name": "instagram",
       "icon": "instagram",
-      "link": "http://instagram.com/slowstitchclub"
+      "link": "https://instagram.com/slowstitchclub",
+      "logomark": "/src/static/uploads/instagram.svg"
     },
     {
       "name": "facebook",
       "icon": "facebook",
-      "link": "https://www.facebook.com/slow-stitch-club-103930844416621/?view_public_for=103930844416621"
+      "link": "https://www.facebook.com/slow-stitch-club-103930844416621/?view_public_for=103930844416621",
+      "logomark": "/src/static/uploads/facebook.svg"
     },
     {
       "name": "pinterest",
       "icon": "pinterest",
-      "link": "https://www.pinterest.co.uk/slowstitchclub/_created/"
+      "link": "https://www.pinterest.co.uk/slowstitchclub/_created/",
+      "logomark": "/src/static/uploads/pinterest.svg"
     },
     {
       "name": "buy me a coffee",
       "link": "https://buymeacoffee.com/slowstitchclub",
-      "icon": "kofi"
+      "icon": "kofi",
+      "logomark": "/src/static/uploads/bmc-logo.svg"
     }
   ],
   "title": "visible mending on the clothes you love, one slow stitch at a time"

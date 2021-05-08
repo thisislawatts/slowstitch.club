@@ -60,7 +60,7 @@ collections:
                   label: Link text,
                   name: cta_text,
                   widget: string,
-                  required: false,
+                  required: false
                 }
               - { label: Link, name: cta_link, widget: string, required: false }
           # - label: "Heading"
@@ -85,7 +85,7 @@ collections:
                   label: Link text,
                   name: cta_text,
                   widget: string,
-                  required: false,
+                  required: false
                 }
               - { label: Link, name: cta_link, widget: string, required: false }
       - label: SEO Title
@@ -118,8 +118,8 @@ collections:
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
-              - { label: Icon, name: icon, widget: string }
               - { label: Link, name: link, widget: string }
+              - { label: Icon, name: logomark, widget: image, required: false }
       - name: "newsletter"
         label: "Newsletter Form"
         preview: false

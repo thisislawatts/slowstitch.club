@@ -48,10 +48,10 @@
         <li>
           <a href="{{ item.link }}" target="_blank" rel="noopener">
             <img
-              src="/static/img/{{ item.icon }}.svg"
+              src="{{item.logomark | replace: "/src", "" }}"
               alt="{{ item.name }}" 
               class="social-icon"
-              width="24" height="24"/>
+              width="20" height="20"/>
           </a>
         </li>
         {% endfor %}
