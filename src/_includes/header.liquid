@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/static/css/screen.css" />
+    <style>
+      {{ styles | cssmin }}
+    </style>
     <title>slow stitch club</title>
     <meta name="title" content="slow stitch club" />
-    <!-- <meta name="description" content="" /> -->
+    <meta name="description" content="{{title}}" />
 
     <link
       rel="apple-touch-icon"
@@ -38,8 +40,7 @@
       content="{{page.url}}"
     />
     <meta property="og:title" content="slow stitch club" />
-    <!-- <meta property="og:description" content="" />
-    <meta property="og:image" content="" /> -->
+    <meta property="og:description" content="{{title}}" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -48,8 +49,6 @@
       content="{{page.url}}"
     />
     <meta property="twitter:title" content="slow stitch club" />
-    <!-- <meta property="twitter:description" content="" />
-    <meta property="twitter:image" content="" /> -->
     <script
       src="https://cdn.usefathom.com/script.js"
       data-site="XGMTABRJ"
@@ -58,12 +57,12 @@
   </head>
   <body>
     <header>
-      <figure>
-        <a href="/" aria-hidden="true">
-          <picture>
+      <figure aria-hidden="true">
+        <a href="/" tabindex="-1">
+          <picture >
             <source srcset="/static/img/logomark.webp" type="image/webp" />
             <source srcset="/static/img/logomark.png" type="image/png" />
-            <img src="/static/img/logomark.png" alt="" />
+            <img src="/static/img/logomark.png" alt="" width="156" height="130" />
           </picture>
         </a>
       </figure>

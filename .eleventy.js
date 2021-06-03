@@ -1,8 +1,9 @@
 const Image = require("@11ty/eleventy-img");
+const CleanCSS = require('clean-css');
 
 async function imageShortcode(src, alt = "", sizes) {
   let metadata = await Image(`.${src}`, {
-    widths: [300, 800],
+    widths: [360, 650, 800],
     formats: ["webp", "jpeg"],
     outputDir: "_site/img",
   });
@@ -22,7 +23,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("src/static/css");
 
   eleventyConfig.addCollection("pages", function (collection) {
-    console.log({ items: collection.items });
     return collection.getAllSorted();
   });
 
@@ -55,6 +55,8 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addLiquidFilter("md", function (value) {
     return md.render(value);
   });
+
+  eleventyConfig.addLiquidFilter('cssmin', (styles) => new CleanCSS({}).minify(styles).styles)
 
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
 

@@ -118,8 +118,6 @@ a {
 }
 
 .link-items li {
-  width: calc(100vw / 2);
-  height: calc(100vw / 2);
   overflow: hidden;
   position: relative;
   background: hsl(167, 60%, 90%);
@@ -137,6 +135,11 @@ a {
 }
 
 @media screen and (min-width: 580px) {
+
+  .link-items li {
+    width: calc(100vw / 2);
+    height: calc(100vw / 2);
+  }
   .link-items a {
     color: transparent;
     transition: 160ms ease all;

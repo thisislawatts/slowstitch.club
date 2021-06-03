@@ -58,7 +58,17 @@
       </ul>
     </div>
 
-    <small>&copy; slowstitchclub 2020 &mdash; {{ "now" | date: "%Y" }}</small>
+    <small>&copy; slowstitchclub 2020 &mdash; {{ "now" | date: "%Y" }}
+
+      <span id="Carbon"></span>
+      <script>
+        if (window.fetch) {
+          fetch('https://api.websitecarbon.com/b?url=' + 'https://slowstitch.club').then(function (res) {return res.json()}).then((data) => {
+   document.getElementById('Carbon').innerHTML = `&middot; <a href="https://www.websitecarbon.com/website/slowstitch-club/">${data.c}g of CO₂</a>`
+  });
+        }
+      </script>
+    </small>
   </footer>
 </body>
 </html>
