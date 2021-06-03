@@ -64,7 +64,7 @@
       <script>
         if (window.fetch) {
           fetch('https://api.websitecarbon.com/b?url=' + 'https://slowstitch.club').then(function (res) {return res.json()}).then((data) => {
-   document.getElementById('Carbon').innerHTML = `&middot; <a href="https://www.websitecarbon.com/website/slowstitch-club/">${data.c}g of CO₂</a>`
+   document.getElementById('Carbon').innerHTML = `&middot; <a href="https://www.websitecarbon.com/website/slowstitch-club/">~${data.c}g of CO₂ generated when viewing this page</a>`
   });
         }
       </script>
